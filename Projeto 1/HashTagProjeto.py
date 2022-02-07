@@ -2,9 +2,9 @@ import pandas as pd
 from twilio.rest import Client
 
 # Your Account SID from twilio.com/console
-account_sid = "AC8da3fdc9ea015c462e27caf68275e84a"
+account_sid = "AC2628af3ef76cd40c0089afb9bfa8d7bf"
 # Your Auth Token from twilio.com/console
-auth_token  = "b880b730a8b201b5997029d4b808b555"
+auth_token  = "efcf79aafdb10f0a995188d8825be60d"
 client = Client(account_sid, auth_token)
 
 lista_meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho"]
